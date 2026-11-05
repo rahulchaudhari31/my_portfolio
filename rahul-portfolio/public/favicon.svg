@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Rahul Chaudhari">
+  <defs>
+    <linearGradient id="rc-gradient" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c3aed" />
+      <stop offset="0.55" stop-color="#a78bfa" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="#07070d" />
+  <rect x="2" y="2" width="60" height="60" rx="13" fill="url(#rc-gradient)" />
+  <text x="32" y="42" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="-1">RC</text>
+</svg>

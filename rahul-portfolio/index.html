@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#07070d" />
+
+    <script>
+      try {
+        if (window.localStorage.getItem("theme") === "light") {
+          document.documentElement.classList.add("light");
+          document.documentElement.style.colorScheme = "light";
+        }
+      } catch {
+        // ignore storage failures
+      }
+    </script>
+
+    <title>Rahul Dattatray Chaudhari — Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Rahul Dattatray Chaudhari, a full-stack developer in Nashik building fast, secure and beautiful React, Node.js and database-driven web applications."
+    />
+    <meta name="author" content="Rahul Dattatray Chaudhari" />
+    <meta
+      name="keywords"
+      content="Rahul Chaudhari, Full-Stack Developer, React Developer, Node.js Developer, Nashik, Portfolio"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link rel="canonical" href="%SITE_URL%/" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="application-name" content="Rahul Chaudhari" />
+    <meta name="apple-mobile-web-app-title" content="Rahul Chaudhari" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Rahul Chaudhari" />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta
+      property="og:title"
+      content="Rahul Dattatray Chaudhari — Full-Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="Full-stack developer building fast, secure and beautiful React, Node.js and database-driven web applications."
+    />
+    <meta property="og:image" content="%SITE_URL%/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Rahul Dattatray Chaudhari — Full-Stack Developer portfolio preview"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Rahul Dattatray Chaudhari — Full-Stack Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Full-stack developer building fast, secure and beautiful React, Node.js and database-driven web applications."
+    />
+    <meta name="twitter:image" content="%SITE_URL%/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Rahul Dattatray Chaudhari — Full-Stack Developer portfolio preview"
+    />
+
+    <link
+      rel="preload"
+      href="/fonts/inter-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/space-grotesk-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rahul Dattatray Chaudhari",
+        "givenName": "Rahul",
+        "familyName": "Dattatray Chaudhari",
+        "jobTitle": "Full-Stack Developer",
+        "description": "Full-stack developer building fast, secure and beautiful React, Node.js and database-driven web applications.",
+        "url": "%SITE_URL%/",
+        "image": "%SITE_URL%/og-image.png",
+        "email": "mailto:rahulchaudhari7498@gmail.com",
+        "telephone": "+91-7498446966",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Nashik",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Technoweb Solutions"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Guru Gobind Singh College of Engineering and Research Centre"
+        },
+        "knowsAbout": [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "REST APIs",
+          "JWT Authentication",
+          "Tailwind CSS"
+        ],
+        "sameAs": [
+          "https://github.com/rahulchaudhari31",
+          "https://www.linkedin.com/in/rahulchaudhari"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

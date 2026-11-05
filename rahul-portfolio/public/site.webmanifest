@@ -1,0 +1,30 @@
+{
+  "name": "Rahul Dattatray Chaudhari — Full-Stack Developer",
+  "short_name": "Rahul",
+  "description": "Portfolio of Rahul Dattatray Chaudhari, a full-stack developer building fast, secure and beautiful web applications.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07070d",
+  "theme_color": "#07070d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
